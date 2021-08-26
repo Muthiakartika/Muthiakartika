@@ -1,16 +1,18 @@
-### Hi there 👋
+### Halo semua 👋
 
-<!--
-**Muthiakartika/Muthiakartika** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Perkenalkan nama saya **Muthia Kartika Putri**.
+Saya seorang **Mahasiswa IT** di **ITB Stikom Bali**
+Saya sangat tertarik untuk menjadi Web Developer terutama dalam bidang Front-end Web.
 
-Here are some ideas to get you started:
+Adapun beberapa hal yang telah saya pelajari dalam dunia Front-end web adalah sebagai berikut:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Belajar Dasar Pemrograman Web di [Dicoding](https://www.dicoding.com/certificates/6RPNKE33QP2M).
+
+- Belajar Membuat Front-end Web untuk Pemula di [Dicoding](https://www.dicoding.com/certificates/L4PQMO194ZO1).
+
+Jika kamu tertarik untuk berkenalan denganku, silahkan ikuti akun [Linkedin](https://www.linkedin.com/in/muthia-kartika/)ku ya.
+
+
+
+
+
