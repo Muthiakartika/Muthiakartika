@@ -2,7 +2,7 @@
 
 Perkenalkan nama saya **Muthia Kartika Putri**.
 Saya seorang **Mahasiswa IT** di **ITB Stikom Bali**
-Saya sangat tertarik untuk menjadi Web Developer terutama dalam bidang Front-end Web.
+Saya sangat tertarik untuk menjadi Web Developer terutama dalam bidang Front-end dan Back-end Web.
 
 Adapun beberapa hal yang telah saya pelajari dalam dunia Front-end web adalah sebagai berikut:
 
