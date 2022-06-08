@@ -10,7 +10,7 @@ Adapun beberapa hal yang telah saya pelajari dalam dunia Front-end web adalah se
 
 - Belajar Membuat Front-end Web untuk Pemula di [Dicoding](https://www.dicoding.com/certificates/L4PQMO194ZO1).
 
-Jika kamu tertarik untuk berkenalan denganku, silahkan ikuti akun [Linkedin](https://www.linkedin.com/in/muthia-kartika?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BnC8U0UEtSnGZzGRXJVcEKw%3D%3D)ku ya.
+Jika kamu tertarik untuk berkenalan denganku, silahkan ikuti akun [Linkedin](https://www.linkedin.com/in/muthia-kartika)ku ya.
 
 <p align="left">
 <a href="https://github.com/Muthiakartika">
