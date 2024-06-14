@@ -1,11 +1,12 @@
-![Header](./myBanner.png)
+![Header](./github-header.png)
 
 ### 👋 Hi there! 
 
 
-I'm **Muthia Kartika Putri**, an undergraduate student majoring in Information System at ITB STIKOM Bali and Help University Malaysia. I'm also working as a WordPress developer and part-time coding teacher.
+I'm **Muthia Kartika Putri**, an undergraduate student majoring in Information Systems at ITB STIKOM Bali and Help University Malaysia.
 
-I'm deeply passionate about web development and constantly exploring new technologies to create impactful projects. My goal is to contribute positively to the digital landscape and make a difference.
+I'm deeply passionate about web development and constantly exploring new technologies to create impactful projects. 
+My goal is to contribute positively to the digital landscape and make a difference.
 
 ---
 
