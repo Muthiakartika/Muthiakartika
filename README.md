@@ -1,20 +1,17 @@
-### Halo semua 👋
+![Header](./myBanner.png)
 
-Perkenalkan nama saya **Muthia Kartika Putri**.
-Saya seorang **Mahasiswa IT** di **ITB Stikom Bali**
-Saya sangat tertarik untuk menjadi Web Developer terutama dalam bidang Front-end dan Back-end Web.
+### 👋 Hi there! 
 
-Adapun beberapa hal yang telah saya pelajari dalam dunia pengembangan web adalah sebagai berikut:
 
-- Belajar Dasar Pemrograman Web di [Dicoding](https://www.dicoding.com/certificates/6RPNKE33QP2M).
+I'm **Muthia Kartika Putri**, an undergraduate student majoring in Information System at ITB STIKOM Bali and Help University Malaysia. I'm also working as a WordPress developer and part-time coding teacher.
 
-- Belajar Membuat Front-end Web untuk Pemula di [Dicoding](https://www.dicoding.com/certificates/L4PQMO194ZO1).
+I'm deeply passionate about web development and constantly exploring new technologies to create impactful projects. My goal is to contribute positively to the digital landscape and make a difference.
 
-- Belajar Dasar Pemrograman JavaScript di [Dicoding](https://www.dicoding.com/certificates/JMZV9MR7RPN9).
+---
 
-- Belajar Membuat Aplikasi Back-End untuk Pemula di [Dicoding](https://www.dicoding.com/certificates/ERZRGWQQWPYV).
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/muthia-kartika)!
 
-Jika kamu tertarik untuk berkenalan denganku, silahkan ikuti akun [Linkedin](https://www.linkedin.com/in/muthia-kartika)ku ya.
+Let's collaborate and create something amazing together!
 
 <p align="left">
 <a href="https://github.com/Muthiakartika">
