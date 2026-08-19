@@ -1,126 +1,47 @@
-<div align="center">
+# Muthiakartika
 
-<img src="./assets/ocean-sakura.gif" alt="Muthia Kartika — Web Developer" width="100%">
+> Memorable developer positioning.
 
-### 💙 Web Developer · Tech Enthusiast · Problem Solver
+## Header
 
-Building modern, responsive and user-friendly websites — from WordPress projects to Next.js applications.
-
-<p>
-  <a href="https://github.com/Muthiakartika">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/muthia-kartika">LinkedIn</a>
-</p>
-
-</div>
-
----
-
-<table>
-<tr>
-<td width="36%" valign="top">
-
-## ✦ ABOUT ME
-
-**Hi, I'm Muthia!** 👋
-
-I enjoy building for the web and exploring new technologies. My work ranges from WordPress websites to modern web applications, with a focus on clean UI, performance and practical solutions.
-
-### Currently into
-
-- ⚡ Web development
-- 🎨 UI, UX & visual design
-- 🔧 Performance & SEO
-- 🧩 WordPress & modern web apps
-- 📚 Always exploring new tech
-
-<br>
-
-<a href="https://github.com/Muthiakartika">
-<img src="https://img.shields.io/badge/OPEN_TO_COLLABORATE-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Open to collaborate">
-</a>
-
-</td>
-
-<td width="64%" valign="top">
-
-## ⚡ GITHUB ACTIVITY
-
-<img src="./assets/stats/activity.svg" width="100%" alt="GitHub activity">
-
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 FEATURED PROJECTS
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://legenddiving.com"><img src="./assets/project-1.svg" width="100%" alt="Legend Diving Lembongan"></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://nyuhbalivillas.com"><img src="./assets/project-2.svg" width="100%" alt="Nyuh Bali Villas"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://spabalimoon.com"><img src="./assets/project-3.svg" width="100%" alt="Spa Bali Moon"></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://healthylook-aesthetic.com"><img src="./assets/project-4.svg" width="100%" alt="Healthy Look Aesthetic"></a>
-</td>
-</tr>
-</table>
-
----
-
-<table>
-<tr>
-<td width="52%" valign="top">
-
-## 💻 TECH I USE
-
-<p>
-<img src="https://img.shields.io/badge/WordPress-0EA5E9?style=for-the-badge&logo=wordpress&logoColor=white">
-<img src="https://img.shields.io/badge/Next.js-38BDF8?style=for-the-badge&logo=nextdotjs&logoColor=071A2B">
-<img src="https://img.shields.io/badge/React-22D3EE?style=for-the-badge&logo=react&logoColor=071A2B">
-<img src="https://img.shields.io/badge/JavaScript-0EA5E9?style=for-the-badge&logo=javascript&logoColor=white">
-<img src="https://img.shields.io/badge/PHP-38BDF8?style=for-the-badge&logo=php&logoColor=071A2B">
-<img src="https://img.shields.io/badge/HTML5-22D3EE?style=for-the-badge&logo=html5&logoColor=071A2B">
-<img src="https://img.shields.io/badge/CSS3-0EA5E9?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/Git-38BDF8?style=for-the-badge&logo=git&logoColor=071A2B">
-</p>
-
-</td>
-
-<td width="48%" valign="top">
-
-## 📊 GITHUB STATS
-
-<img src="./assets/stats/github-stats.svg" width="100%" alt="GitHub statistics">
-
-</td>
-</tr>
-</table>
-
----
-
-## 🌊 TOP LANGUAGES
+Hi, I'm **Muthiakartika**. This README shares what I'm building, the tools I use, and the work I'm proud of.
 
 <p align="center">
-<img src="./assets/stats/languages.svg" width="70%" alt="Top languages">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=Muthiakartika&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=Muthiakartika&theme=neon" alt="Muthiakartika hero section" />
+  </picture>
 </p>
+## About Me
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=Muthiakartika&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/about?username=Muthiakartika&theme=neon" alt="Muthiakartika about section" />
+  </picture>
+</p>
+## Skills
 
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=Muthiakartika&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stack?username=Muthiakartika&theme=neon" alt="Muthiakartika stack section" />
+  </picture>
+</p>
+## GitHub Stats
 
-### ✨ Building things, one pixel at a time.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=Muthiakartika&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stats?username=Muthiakartika&theme=neon" alt="Muthiakartika stats section" />
+  </picture>
+</p>
+## Projects
 
-**Thanks for stopping by 💙**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A2B,50:0EA5E9,100:22D3EE&height=100&section=footer" width="100%">
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=Muthiakartika&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/projects?username=Muthiakartika&theme=neon" alt="Muthiakartika projects section" />
+  </picture>
+</p>
+## Heatmap
