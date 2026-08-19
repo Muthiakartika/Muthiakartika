@@ -1,0 +1,110 @@
+name: Update GitHub Profile Stats
+
+on:
+  schedule:
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate local stats SVGs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          const user = 'Muthiakartika';
+          const token = process.env.GH_TOKEN;
+
+          async function api(path) {
+            const r = await fetch(`https://api.github.com${path}`, {
+              headers: {
+                'Authorization': `Bearer ${token}`,
+                'Accept': 'application/vnd.github+json',
+                'X-GitHub-Api-Version': '2022-11-28'
+              }
+            });
+            if (!r.ok) throw new Error(`${path}: ${r.status} ${await r.text()}`);
+            return r.json();
+          }
+
+          function esc(s) {
+            return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+          }
+
+          function card(title, subtitle, lines, height=250) {
+            const body = lines.map((x, i) =>
+              `<text x="48" y="${76+i*34}" fill="#E0F2FE" font-family="Arial, sans-serif" font-size="18">${esc(x)}</text>`
+            ).join('');
+            return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${height}" viewBox="0 0 900 ${height}">
+              <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071A2B"/><stop offset="1" stop-color="#0B3150"/></linearGradient></defs>
+              <rect x="2" y="2" width="896" height="${height-4}" rx="22" fill="url(#bg)" stroke="#0EA5E9" stroke-opacity=".5"/>
+              <text x="48" y="42" fill="#38BDF8" font-family="Arial, sans-serif" font-size="22" font-weight="700">${esc(title)}</text>
+              <text x="48" y="62" fill="#7DD3FC" font-family="Arial, sans-serif" font-size="12">${esc(subtitle)}</text>
+              ${body}
+            </svg>`;
+          }
+
+          (async () => {
+            const profile = await api(`/users/${user}`);
+            const repos = await api(`/users/${user}/repos?per_page=100&type=owner`);
+
+            const languageTotals = {};
+            for (const repo of repos.filter(r => !r.fork)) {
+              if (!repo.languages_url) continue;
+              try {
+                const langs = await api(`/repos/${user}/${repo.name}/languages`);
+                for (const [lang, bytes] of Object.entries(langs)) {
+                  languageTotals[lang] = (languageTotals[lang] || 0) + bytes;
+                }
+              } catch {}
+            }
+
+            const totalBytes = Object.values(languageTotals).reduce((a,b)=>a+b,0) || 1;
+            const top = Object.entries(languageTotals)
+              .sort((a,b)=>b[1]-a[1])
+              .slice(0,5);
+
+            const languageLines = top.map(([name, bytes]) =>
+              `${name.padEnd(14,' ')} ${((bytes/totalBytes)*100).toFixed(1)}%`
+            );
+
+            const stats = [
+              `${profile.public_repos}     Repositories`,
+              `${profile.followers}     Followers`,
+              `${profile.following}     Following`,
+              `${repos.filter(r => !r.fork).length}     Public projects scanned`
+            ];
+
+            fs.writeFileSync('assets/stats/github-stats.svg',
+              card('GitHub Stats', 'Synced automatically from GitHub', stats, 250));
+
+            fs.writeFileSync('assets/stats/languages.svg',
+              card('Top Languages', 'Based on language bytes across non-fork public repositories', languageLines.length ? languageLines : ['No language data yet.'], 250));
+
+            fs.writeFileSync('assets/stats/activity.svg',
+              card('GitHub Activity', 'Local card — no third-party stats service', [
+                `Repositories: ${profile.public_repos}`,
+                `Followers: ${profile.followers}`,
+                `Following: ${profile.following}`,
+                'Updated automatically by GitHub Actions'
+              ], 220));
+          })().catch(err => { console.error(err); process.exit(1); });
+          NODE
+
+      - name: Commit updated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/*.svg
+          git diff --cached --quiet || git commit -m "chore: update profile stats"
+          git push
