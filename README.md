@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="./assets/ocean-sakura.gif" alt="Muthia Kartika — WordPress Developer" width="100%">
-
-<br>
+<img src="./assets/ocean-sakura.gif" alt="Muthia Kartika — Web Developer" width="100%">
 
 ### 💙 Web Developer · Tech Enthusiast · Problem Solver
 
+Building modern, responsive and user-friendly websites — from WordPress projects to Next.js applications.
+
 <p>
   <a href="https://github.com/Muthiakartika">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/muthiakartika">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/muthia-kartika">LinkedIn</a>
 </p>
 
 </div>
@@ -23,7 +23,7 @@
 
 **Hi, I'm Muthia!** 👋
 
-I build modern, responsive and user-friendly websites, from **WordPress projects to Next.js applications**, with a focus on clean UI, performance and practical solutions.
+I enjoy building for the web and exploring new technologies. My work ranges from WordPress websites to modern web applications, with a focus on clean UI, performance and practical solutions.
 
 ### Currently into
 
@@ -45,17 +45,7 @@ I build modern, responsive and user-friendly websites, from **WordPress projects
 
 ## ⚡ GITHUB ACTIVITY
 
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Muthiakartika&bg_color=071A2B&color=38BDF8&line=0EA5E9&point=22D3EE&area=true&hide_border=true" width="100%" alt="GitHub activity graph">
-</p>
-
-<table>
-<tr>
-<td align="center"><b>Repositories</b><br>↗ GitHub</td>
-<td align="center"><b>Contributions</b><br>↗ GitHub</td>
-<td align="center"><b>Projects</b><br>Web & WordPress</td>
-</tr>
-</table>
+<img src="./assets/stats/activity.svg" width="100%" alt="GitHub activity">
 
 </td>
 </tr>
@@ -109,7 +99,7 @@ I build modern, responsive and user-friendly websites, from **WordPress projects
 
 ## 📊 GITHUB STATS
 
-<img src="https://github-readme-stats.vercel.app/api?username=Muthiakartika&show_icons=true&hide_border=true&bg_color=071A2B&title_color=38BDF8&text_color=E0F2FE&icon_color=22D3EE&ring_color=0EA5E9" width="100%" alt="GitHub statistics">
+<img src="./assets/stats/github-stats.svg" width="100%" alt="GitHub statistics">
 
 </td>
 </tr>
@@ -120,7 +110,7 @@ I build modern, responsive and user-friendly websites, from **WordPress projects
 ## 🌊 TOP LANGUAGES
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muthiakartika&layout=compact&hide_border=true&bg_color=071A2B&title_color=38BDF8&text_color=E0F2FE&langs_count=8" width="60%" alt="Top languages">
+<img src="./assets/stats/languages.svg" width="70%" alt="Top languages">
 </p>
 
 ---
