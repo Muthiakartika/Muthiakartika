@@ -4,7 +4,9 @@
 
 ## Header
 
-Hi, I'm **Muthiakartika**. This README shares what I'm building, the tools I use, and the work I'm proud of.
+**Hi, I'm Muthia!** 👋
+
+I enjoy building for the web and exploring new technologies. My work ranges from WordPress websites to modern web applications, with a focus on clean UI, performance and practical solutions.
 
 <p align="center">
   <picture>
