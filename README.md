@@ -1,7 +1,3 @@
-# Muthiakartika
-
-> Memorable developer positioning.
-
 ## Header
 
 **Hi, I'm Muthia!** 👋
