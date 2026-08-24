@@ -10,6 +10,7 @@ I enjoy building for the web and exploring new technologies. My work ranges from
     <img src="https://www.gitskins.com/api/section/hero?username=Muthiakartika&theme=neon" alt="Muthiakartika hero section" />
   </picture>
 </p>
+
 ## About Me
 
 <p align="center">
@@ -18,6 +19,7 @@ I enjoy building for the web and exploring new technologies. My work ranges from
     <img src="https://www.gitskins.com/api/section/about?username=Muthiakartika&theme=neon" alt="Muthiakartika about section" />
   </picture>
 </p>
+
 ## Skills
 
 <p align="center">
@@ -26,6 +28,7 @@ I enjoy building for the web and exploring new technologies. My work ranges from
     <img src="https://www.gitskins.com/api/section/stack?username=Muthiakartika&theme=neon" alt="Muthiakartika stack section" />
   </picture>
 </p>
+
 ## GitHub Stats
 
 <p align="center">
@@ -34,6 +37,7 @@ I enjoy building for the web and exploring new technologies. My work ranges from
     <img src="https://www.gitskins.com/api/section/stats?username=Muthiakartika&theme=neon" alt="Muthiakartika stats section" />
   </picture>
 </p>
+
 ## Projects
 
 <p align="center">
@@ -42,4 +46,5 @@ I enjoy building for the web and exploring new technologies. My work ranges from
     <img src="https://www.gitskins.com/api/section/projects?username=Muthiakartika&theme=neon" alt="Muthiakartika projects section" />
   </picture>
 </p>
+
 ## Heatmap
